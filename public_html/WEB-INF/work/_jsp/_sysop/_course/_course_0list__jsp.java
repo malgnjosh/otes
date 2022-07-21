@@ -35,7 +35,7 @@ public class _course_0list__jsp extends com.caucho.jsp.JavaPage
     request.setCharacterEncoding("UTF-8");
     try {
       
-
+//
 //\ubcc0\uc218
 String docRoot = Config.getDocRoot();
 String tplRoot = docRoot + "/sysop/html";
@@ -218,11 +218,11 @@ p.display();
     String resourcePath = loader.getResourcePathSpecificFirst();
     mergePath.addClassPath(resourcePath);
     com.caucho.vfs.Depend depend;
-    depend = new com.caucho.vfs.Depend(appDir.lookup("sysop/course/course_list.jsp"), -2449614692117773940L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("sysop/course/course_list.jsp"), 8747412877852230123L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
-    depend = new com.caucho.vfs.Depend(appDir.lookup("sysop/course/init.jsp"), 6133038957141066510L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("sysop/course/init.jsp"), -7162420496711387185L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
-    depend = new com.caucho.vfs.Depend(appDir.lookup("sysop/init.jsp"), -2757950905718429357L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("sysop/init.jsp"), -2253010914700824916L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
   }
 }

@@ -4,7 +4,7 @@ JSP
 *S JSP
 *F
 + 1 init.jsp
-sysop/main/../init.jsp
+sysop/user/../init.jsp
 + 2 init.jsp
 sysop/user/init.jsp
 + 3 user_list.jsp

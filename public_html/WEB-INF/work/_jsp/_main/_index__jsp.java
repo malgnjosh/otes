@@ -183,11 +183,11 @@ p.display();
     String resourcePath = loader.getResourcePathSpecificFirst();
     mergePath.addClassPath(resourcePath);
     com.caucho.vfs.Depend depend;
-    depend = new com.caucho.vfs.Depend(appDir.lookup("main/index.jsp"), -2755380896890428647L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("main/index.jsp"), 3809536321100655724L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
-    depend = new com.caucho.vfs.Depend(appDir.lookup("main/init.jsp"), 276997249777252625L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("main/init.jsp"), -5623034899004674451L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
-    depend = new com.caucho.vfs.Depend(appDir.lookup("init.jsp"), -2671751158375180785L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("init.jsp"), 9018384566817583740L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
   }
 }
